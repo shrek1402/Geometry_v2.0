@@ -15,7 +15,6 @@ class figure {
   virtual double getPerimetr() = 0;
   virtual void setPoint(std::string) = 0;
   virtual bool getError() = 0;
-  
 
   // Фабрика
   static std::shared_ptr<figure> createFigure(std::string id, std::string coordinats);
