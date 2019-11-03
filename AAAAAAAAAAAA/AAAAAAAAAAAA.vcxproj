@@ -153,16 +153,20 @@
   <ItemGroup>
     <ClCompile Include="AAAAAAAAAAAA.cpp" />
     <ClCompile Include="circle.cpp" />
+    <ClCompile Include="ExcImpl.cpp" />
     <ClCompile Include="figure.cpp" />
     <ClCompile Include="poligone.cpp" />
-    <ClCompile Include="treangle.cpp" />
+    <ClCompile Include="triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circle.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="ExcImpl.h" />
     <ClInclude Include="figure.h" />
+    <ClInclude Include="IException.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="poligone.h" />
-    <ClInclude Include="treangle.h" />
+    <ClInclude Include="triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

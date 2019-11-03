@@ -2,14 +2,18 @@
 #include "pch.h"
 class circle : public figure {
  private:
-  std::string _initialData;
+  friend void parse(std::string, circle*);
+
+  std::string _coordinats;
+  Circle _dataCircle;
 
  public:
-  circle(std::string);
+  circle(std::string c);
+  void* getData();
   double getSquare();
   double getPerimetr();
-  void setPoint(std::string);
-  bool getError();
+  uint16_t getName();
+
 
   ~circle();
 };
